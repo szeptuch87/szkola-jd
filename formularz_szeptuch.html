@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-	<head>
-		<meta charset="utf-8">
-		<title>formularz</title>
-		</head>
-	<body>
-	<a href="index.html">wróć</a><br/><br/>
-	
-	
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <title>formularz</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <a href="index.html">wróć</a><br/><br/>
+    <from method="post">
+        <div id="logo">
+            FORMULARZ ZGŁOSZENIOWY DO <br/> Kółka programowania
+            <br/>
+        </div>
+
+		<div id="imie">
+
+            <input type="text" />
+            <br/> Imie
+
+        </div>
+		<div id="imie2">
+
+            <input type="text" />
+            <br/> imie2
+
+        </div>
+        <div id="nazwisko">
+
+            <input type="text" />
+            <br/> nazwisko
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="mieszkanie">
+            <h3>W jakim języku najczęściej programujesz?</h3>
+
+            <input type="checkbox" /> C++<br/>
+            <input type="checkbox" /> JavaScript<br/>
+            <input type="checkbox" /> Python
+
+        </div>
+        <div id="dos">
+            <h3>Jakie masz doświadczenie?</h3>
+
+            <input type="radio" name="dos"> tydzień
+            <input type="radio" name="dos"> miesiąc
+			<input type="radio" name="dos"> pół roku
+			<input type="radio" name="dos"> rok
+			<input type="radio" name="dos"> dłużej
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="um">
+            <h3>Czy masz jakieś osiągnięcia związane z programowaniem?</h3>
+
+            <select name="um">
+                <option selected>Tak</option>
+                <option>Nie</option>
+            </select>
+
+        </div>
+        
+		<div id="p1234">
+            <h3>Jak oceniasz swój poziom programowania?</h3>
+
+            <input type="radio" name="dos"> Bardzo niski
+            <input type="radio" name="dos"> Niski
+			<input type="radio" name="dos">Sredni
+			<input type="radio" name="dos"> rok
+			<input type="radio" name="dos"> dłużej
+
+        </div>
+        <div style="clear:both"></div>
+        <div id="haslo">
+            <h3>Hasło do formularza</h3>
+
+            <input type="password" />
+
+        </div>
+        <div id=dl>
+            <h3>Dlaczego  uważasz że akurat ty nadajesz się do naszego kółka?</h3>
+
+            <textarea name="Komentarz" cols="50" rows="10"></textarea>
+
+        </div>
+        <div id="przy">
+
+            <input type="submit" value="Wyślij"><br/>
+
+        </div>
+        <div id="przy2">
+
+            <input type="reset" value="Wyczyść dane"><br/>
+
+        </div>
+    </from>
+
+</body>
+
 </html>

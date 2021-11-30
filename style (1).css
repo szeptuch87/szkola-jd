@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: rgb(19, 145, 184);
+    font-size: 14px;
+}
+
+#imie {
+    margin-right: 50px;
+    float: left;
+}
+#imie2 {
+    margin-right: 50px;
+    float: center;
+}
+
+#logo {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#mieszkanie {
+    float: left;
+    margin-right: 50px;
+}
+
+#dos {
+    float: left;
+}
+
+#um {
+    float: left;
+    margin-right: 50px;
+}
+
+#dl {
+    float: left;
+    margin-right: 500px;
+}
+
+#przy {
+    float: left;
+    margin-right: 50px;
+}
+
+#przy2 {
+    float: left;
+}
+
+#p1234 {
+    float: left;
+    margin-right: 40px;
+}
